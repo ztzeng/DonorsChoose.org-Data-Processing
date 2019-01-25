@@ -33,9 +33,9 @@ print("The mean donation amount is: " +
       " $" + str(round(donation_mean, 2))+ "\n")
 print("The standard deviaton of donation amount is: " +
       " $" + str(round(donation_stdev, 2))+ "\n")
-print("The max donation amount is: " +
-      " $" + str(round(donation_max, 2))+ "\n")
 print("The min donation amount is: " +
       " $" + str(round(donation_min, 2))+ "\n")
+print("The max donation amount is: " +
+      " $" + str(round(donation_max, 2))+ "\n")
 
 sc.stop()
